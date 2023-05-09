@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: #444444;
+}
+
+
+.App {
+    width: 100%;
+    max-width: 1500px;
+}
+
+
+button {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* .teste {
+    width: 100%;
+    height: 100dvh;
+    background-color: #252525;
+} */
+
+@media (min-width: 1800px) {
+   #root {
+   display: grid;
+   place-items: center;
+   }
+}
