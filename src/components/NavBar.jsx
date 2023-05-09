@@ -45,7 +45,7 @@ export default function NavBar() {
                 initial={{x:180, opacity:0}} 
                 animate={{x:0, opacity:1}}
                 transition={{duration: 1.3}}>
-                    <StyledLink to="/">Home</StyledLink>
+                    <StyledLink to="Laconic-project">Home</StyledLink>
                     <StyledLink to="/about">About</StyledLink>
                     <StyledLink to="/services">Services</StyledLink>
                     <StyledLink to="/contact">Contact</StyledLink> 
