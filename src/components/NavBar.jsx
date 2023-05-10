@@ -10,15 +10,7 @@ export default function NavBar() {
     const handleClick = () => {
         setIsClicked(!isClicked);
         setMobileNavbar(false);
-        console.log('clicou')
     }
-
-    // const testeClick = (navLink) => {
-    //     navLink.forEach((link) => {
-    //         setIsClicked(!isClicked);
-    //         setMobileNavbar(false);
-    //     })
-    // }
     
     return (
         <HeaderContainer>
@@ -29,7 +21,7 @@ export default function NavBar() {
             >Laconic</Logo>)}
 
             {mobileNavbar && (<HiddenLinks>
-                <StyledLink to="/" onClick={handleClick}>Home</StyledLink>
+                <StyledLink to="Laconic-project" onClick={handleClick}>Home</StyledLink>
                 <StyledLink to="/about" onClick={handleClick}>About</StyledLink>
                 <StyledLink to="/services" onClick={handleClick}>Services</StyledLink>
                 <StyledLink to="/contact" onClick={handleClick}>Contact</StyledLink> 
