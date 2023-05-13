@@ -19,6 +19,8 @@ export default function Form() {
 
   const onSubmit = (data) => {
     console.log(data)
+    alert('Thank you for your message, we will contact you as soon as possible to make your project come true!')
+    reset();
   }
 
     return (
